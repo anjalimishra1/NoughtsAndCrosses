@@ -23,7 +23,7 @@ void display()
 	
 	int i, j;
 	system("clear");
-	cout<<"\nWelcome to the Tic-Tac-Toe Game!\n\nGrid Co-ordinates : "<<endl<<endl;
+	cout<<"\nWelcome to the game of Noughts and Crosses!\n\n Co-ordinates : "<<endl<<endl;
         
     for (i=0; i<3; i++)
 	{
@@ -33,7 +33,7 @@ void display()
 		cout<<endl;   
 	}       
 
-	cout<<"\nThe Tic-Tac-Toe board : "<<endl<<endl;
+	cout<<"\nThe game board : "<<endl<<endl;
 	for (i=0; i<3; i++)
 	{
 		cout<<"\t";
